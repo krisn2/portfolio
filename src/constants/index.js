@@ -15,6 +15,7 @@ export const PROJECTS = [
   {
     title: "Unify Library",
     image: project1,
+    url:"https://github.com/krisn2/unify",
     description:
       "This Rust crate provides an abstraction layer for integrating multiple payment gateways, including Stripe, Razorpay, and Cashfree. It allows for easy switching between different payment providers through a common interface.",
     technologies: ["Rust", "Stripe", "Razorpay", "Cashfree"],
@@ -22,6 +23,7 @@ export const PROJECTS = [
   {
     title: "Shortly URL Shortener",
     image: project4,
+    url:"https://github.com/krisn2/shortUrl",
     description:
       "A URL shortener built with ejs, Node.js, and MongoDB. It allows users to shorten and share long URLs with ease.",
     technologies: [ "ejs", "Node.js", "Express", "mongoDB"],
@@ -36,6 +38,7 @@ export const PROJECTS = [
   {
     title: "Blog Application",
     image: project2,
+    url:"https://github.com/krisn2/blogsite",
     description:
       "A full-stack blog application that allows users to create, read, update, and delete blog posts. The application uses ejs, Node.js, and mongoDB.",
     technologies: ["ejs", "Bootstrap", "ejs", "Node.js", "mongoDB"],
