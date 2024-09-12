@@ -22,7 +22,7 @@ export const PROJECTS = [
   },
   {
     title: "Shortly URL Shortener",
-    image: project4,
+    image: project2,
     url:"https://github.com/krisn2/shortUrl",
     description:
       "A URL shortener built with ejs, Node.js, and MongoDB. It allows users to shorten and share long URLs with ease.",
@@ -37,7 +37,7 @@ export const PROJECTS = [
   },
   {
     title: "Blog Application",
-    image: project2,
+    image: project4,
     url:"https://github.com/krisn2/blogsite",
     description:
       "A full-stack blog application that allows users to create, read, update, and delete blog posts. The application uses ejs, Node.js, and mongoDB.",
