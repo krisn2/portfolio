@@ -41,7 +41,7 @@ export const PROJECTS = [
     url:"https://github.com/krisn2/blogsite",
     description:
       "A full-stack blog application that allows users to create, read, update, and delete blog posts. The application uses ejs, Node.js, and mongoDB.",
-    technologies: ["ejs", "Bootstrap", "ejs", "Node.js", "mongoDB"],
+    technologies: ["ejs", "Bootstrap", "Node.js", "mongoDB"],
   },
 
 ];
