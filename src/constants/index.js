@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpeg";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpeg";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate full-stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Tailwind CSS, as well as back-end technologies like Node.js, Actix Web, MySQL, PostgreSQL, and MongoDB. Additionally, I have experience with Redis, Kafka, and Express.js, allowing me to build efficient and maintainable solutions across the entire stack.`;
 
@@ -20,6 +21,7 @@ export const PROJECTS = [
       "This Rust crate provides an abstraction layer for integrating multiple payment gateways, including Stripe, Razorpay, and Cashfree. It allows for easy switching between different payment providers through a common interface.",
     technologies: ["Rust", "Stripe", "Razorpay", "Cashfree"],
   },
+
   {
     title: "Shortly URL Shortener",
     image: project2,
@@ -42,6 +44,14 @@ export const PROJECTS = [
     description:
       "A full-stack blog application that allows users to create, read, update, and delete blog posts. The application uses ejs, Node.js, and mongoDB.",
     technologies: ["ejs", "Bootstrap", "Node.js", "mongoDB"],
+  },
+  {
+    title: "Zentry clone",
+    image: project5,
+    url:"https://zentry-pearl.vercel.app/",
+    description:
+      "A Zentry Clone is a responsive website made with React, Tailwind CSS, GSAP, and Vite, featuring smooth animations and a modern design that works seamlessly across devices..",
+    technologies: [ "React", "TailwindCSS", "GSAP", "Vite"],
   },
 
 ];
